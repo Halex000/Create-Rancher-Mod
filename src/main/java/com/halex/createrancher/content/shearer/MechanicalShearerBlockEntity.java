@@ -43,6 +43,8 @@ public class MechanicalShearerBlockEntity extends ArmBlockEntity implements Clea
     public static final int AREA_HALF_HEIGHT = 1;
     private static final double AIM_TOLERANCE = 1;
     private static final int PULL_MEMORY = 40;
+    private static final int UNTAKEN_TICKS = 40;
+    private static final int LOOK_BREAK = 200;
     private static final float SNIP_TICKS = 3;
 
     @Nullable
@@ -64,6 +66,9 @@ public class MechanicalShearerBlockEntity extends ArmBlockEntity implements Clea
     private final IItemHandler fromAfar = new Output(false);
     private boolean pulledFromBeside;
     private long lastPulled = Long.MIN_VALUE / 2;
+    private long lastLooked = Long.MIN_VALUE / 2;
+    private long looksIgnoredUntil = Long.MIN_VALUE / 2;
+    private long heldForLookerSince = -1;
 
     private int snips;
     private int seenSnips = -1;
@@ -90,6 +95,20 @@ public class MechanicalShearerBlockEntity extends ArmBlockEntity implements Clea
         ShearingPoint.whileShearerTicks(super::tick);
         if (level != null && level.isClientSide)
             sinceSnip++;
+        else if (level != null && heldForLookerSince >= 0 && level.getGameTime() - heldForLookerSince > UNTAKEN_TICKS)
+            dropUntaken();
+    }
+
+    // Drops sheared items that sat in the shearer untaken
+    private void dropUntaken() {
+        heldForLookerSince = -1;
+        looksIgnoredUntil = level.getGameTime() + LOOK_BREAK;
+        Vec3 at = SubLevels.toWorld(level, worldPosition, VecHelper.getCenterOf(worldPosition)
+                .add(0, .75, 0));
+        for (int i = 0; i < waiting.getSlots(); i++) {
+            Containers.dropItemStack(level, at.x, at.y, at.z, waiting.getStackInSlot(i));
+            waiting.setStackInSlot(i, ItemStack.EMPTY);
+        }
     }
 
     private ArmBlockEntityAccessor arm() {
@@ -141,10 +160,14 @@ public class MechanicalShearerBlockEntity extends ArmBlockEntity implements Clea
     private void snip(Mob animal) {
         List<ItemEntity> dropped = Shearing.shear(animal);
         snips++;
-        boolean pulling = isSomethingPulling();
+        boolean pulled = isSomethingPulling();
+        boolean pulling = pulled || isSomethingLooking();
         for (ItemEntity item : dropped) {
             ItemStack left = pulling ? ItemHandlerHelper.insertItemStacked(waiting, item.getItem(), false)
                     : item.getItem();
+            if (left.getCount() < item.getItem()
+                    .getCount() && !pulled && heldForLookerSince < 0)
+                heldForLookerSince = level.getGameTime();
             if (left.isEmpty())
                 continue;
             item.setItem(left);
@@ -229,6 +252,12 @@ public class MechanicalShearerBlockEntity extends ArmBlockEntity implements Clea
         return pulledFromBeside || level.getGameTime() - lastPulled <= PULL_MEMORY;
     }
 
+    // Whether a neighbouring block has recently checked the shearer's inventory
+    private boolean isSomethingLooking() {
+        long now = level.getGameTime();
+        return now - lastLooked <= PULL_MEMORY && now >= looksIgnoredUntil;
+    }
+
     // Lets hoppers and funnels take the sheared items
     private class Output implements IItemHandler {
 
@@ -245,6 +274,8 @@ public class MechanicalShearerBlockEntity extends ArmBlockEntity implements Clea
 
         @Override
         public ItemStack getStackInSlot(int slot) {
+            if (beside && level != null && !level.isClientSide)
+                lastLooked = level.getGameTime();
             return waiting.getStackInSlot(slot);
         }
 
@@ -262,7 +293,10 @@ public class MechanicalShearerBlockEntity extends ArmBlockEntity implements Clea
                     setChanged();
                 }
             }
-            return waiting.extractItem(slot, amount, simulate);
+            ItemStack taken = waiting.extractItem(slot, amount, simulate);
+            if (!simulate && !taken.isEmpty())
+                heldForLookerSince = -1;
+            return taken;
         }
 
         @Override
