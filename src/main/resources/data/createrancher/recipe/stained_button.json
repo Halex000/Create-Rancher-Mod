@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "createrancher:stained_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "createrancher:stained_button"
+  }
+}

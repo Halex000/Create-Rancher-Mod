@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "createrancher:block/mechanical_fisher/block" },
+    "facing=east": { "model": "createrancher:block/mechanical_fisher/block", "y": 90 },
+    "facing=south": { "model": "createrancher:block/mechanical_fisher/block", "y": 180 },
+    "facing=west": { "model": "createrancher:block/mechanical_fisher/block", "y": 270 }
+  }
+}

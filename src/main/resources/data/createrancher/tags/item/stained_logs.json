@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "createrancher:stained_log",
+    "createrancher:stained_wood",
+    "createrancher:stripped_stained_log",
+    "createrancher:stripped_stained_wood"
+  ]
+}

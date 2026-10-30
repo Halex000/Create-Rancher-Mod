@@ -1,0 +1,3 @@
+# The helix's one material: the model's texture #blade
+newmtl blade
+map_Kd #blade

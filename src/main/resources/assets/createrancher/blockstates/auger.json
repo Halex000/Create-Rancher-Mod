@@ -1,0 +1,2852 @@
+{
+  "variants": {
+    "axis=x,part=single,slope=none,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=none,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=none,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=single,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=none,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=none,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=none,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=bottom,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=none,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=none,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=none,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=middle,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=none,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=none,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=none,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,part=top,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,part=single,slope=none,trim=none": {
+      "model": "createrancher:block/auger/single"
+    },
+    "axis=y,part=single,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/single"
+    },
+    "axis=y,part=single,slope=none,trim=top": {
+      "model": "createrancher:block/auger/single"
+    },
+    "axis=y,part=single,slope=none,trim=both": {
+      "model": "createrancher:block/auger/single"
+    },
+    "axis=y,part=single,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=single,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=single,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=single,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=single,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=single,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=single,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=single,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=single,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=single,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=single,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=single,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=single,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=single,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=single,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=single,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=single,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 270
+    },
+    "axis=y,part=single,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 270
+    },
+    "axis=y,part=single,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 270
+    },
+    "axis=y,part=single,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 270
+    },
+    "axis=y,part=single,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 90
+    },
+    "axis=y,part=single,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 90
+    },
+    "axis=y,part=single,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 90
+    },
+    "axis=y,part=single,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 90
+    },
+    "axis=y,part=single,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 180
+    },
+    "axis=y,part=single,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 180
+    },
+    "axis=y,part=single,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 180
+    },
+    "axis=y,part=single,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/diagonal_single",
+      "y": 180
+    },
+    "axis=y,part=single,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/diagonal_single"
+    },
+    "axis=y,part=single,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_single"
+    },
+    "axis=y,part=single,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/diagonal_single"
+    },
+    "axis=y,part=single,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/diagonal_single"
+    },
+    "axis=y,part=single,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=single,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=single,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=single,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=single,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=single,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=single,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=single,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=single,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=single,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=single,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=single,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=single,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=single,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=single,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=single,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=bottom,slope=none,trim=none": {
+      "model": "createrancher:block/auger/bottom"
+    },
+    "axis=y,part=bottom,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/bottom"
+    },
+    "axis=y,part=bottom,slope=none,trim=top": {
+      "model": "createrancher:block/auger/bottom_trim_top"
+    },
+    "axis=y,part=bottom,slope=none,trim=both": {
+      "model": "createrancher:block/auger/bottom"
+    },
+    "axis=y,part=bottom,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=bottom,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=bottom,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=bottom,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=bottom,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/diagonal_bottom",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/diagonal_bottom"
+    },
+    "axis=y,part=bottom,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_bottom"
+    },
+    "axis=y,part=bottom,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/diagonal_bottom"
+    },
+    "axis=y,part=bottom,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/diagonal_bottom"
+    },
+    "axis=y,part=bottom,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=bottom,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=bottom,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=bottom,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=bottom,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=bottom,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=bottom,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=middle,slope=none,trim=none": {
+      "model": "createrancher:block/auger/middle"
+    },
+    "axis=y,part=middle,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/middle_trim_bottom"
+    },
+    "axis=y,part=middle,slope=none,trim=top": {
+      "model": "createrancher:block/auger/middle_trim_top"
+    },
+    "axis=y,part=middle,slope=none,trim=both": {
+      "model": "createrancher:block/auger/middle_trim_both"
+    },
+    "axis=y,part=middle,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=middle,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=middle,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=middle,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=middle,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/diagonal_middle",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/diagonal_middle"
+    },
+    "axis=y,part=middle,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_middle"
+    },
+    "axis=y,part=middle,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/diagonal_middle"
+    },
+    "axis=y,part=middle,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/diagonal_middle"
+    },
+    "axis=y,part=middle,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=middle,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=middle,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=middle,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=middle,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=middle,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=middle,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=top,slope=none,trim=none": {
+      "model": "createrancher:block/auger/top"
+    },
+    "axis=y,part=top,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/top_trim_bottom"
+    },
+    "axis=y,part=top,slope=none,trim=top": {
+      "model": "createrancher:block/auger/top"
+    },
+    "axis=y,part=top,slope=none,trim=both": {
+      "model": "createrancher:block/auger/top"
+    },
+    "axis=y,part=top,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=top,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=top,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=top,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 270
+    },
+    "axis=y,part=top,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=top,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=top,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=top,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 90
+    },
+    "axis=y,part=top,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=top,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=top,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=top,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/joint_start",
+      "y": 180
+    },
+    "axis=y,part=top,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=top,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=top,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=top,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/joint_start"
+    },
+    "axis=y,part=top,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 270
+    },
+    "axis=y,part=top,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 270
+    },
+    "axis=y,part=top,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 270
+    },
+    "axis=y,part=top,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 270
+    },
+    "axis=y,part=top,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 90
+    },
+    "axis=y,part=top,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 90
+    },
+    "axis=y,part=top,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 90
+    },
+    "axis=y,part=top,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 90
+    },
+    "axis=y,part=top,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 180
+    },
+    "axis=y,part=top,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 180
+    },
+    "axis=y,part=top,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 180
+    },
+    "axis=y,part=top,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/diagonal_top",
+      "y": 180
+    },
+    "axis=y,part=top,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/diagonal_top"
+    },
+    "axis=y,part=top,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/diagonal_top"
+    },
+    "axis=y,part=top,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/diagonal_top"
+    },
+    "axis=y,part=top,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/diagonal_top"
+    },
+    "axis=y,part=top,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=top,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=top,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=top,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 270
+    },
+    "axis=y,part=top,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=top,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=top,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=top,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 90
+    },
+    "axis=y,part=top,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=top,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=top,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=top,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/joint_end",
+      "y": 180
+    },
+    "axis=y,part=top,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=top,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=top,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=y,part=top,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/joint_end"
+    },
+    "axis=z,part=single,slope=none,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=none,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=none,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=single,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/single",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=none,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=none,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=none,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=bottom,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/bottom",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=none,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=none,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=none,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=middle,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/middle",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=none,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=none,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=none,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=none,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_north,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_north,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_north,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_north,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_south,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_south,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_south,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_south,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_west,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_west,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_west,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_west,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_east,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_east,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_east,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=start_east,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_north,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_north,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_north,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_north,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_south,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_south,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_south,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_south,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_west,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_west,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_west,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_west,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_east,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_east,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_east,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=diagonal_east,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_north,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_north,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_north,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_north,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_south,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_south,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_south,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_south,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_west,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_west,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_west,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_west,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_east,trim=none": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_east,trim=bottom": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_east,trim=top": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    },
+    "axis=z,part=top,slope=end_east,trim=both": {
+      "model": "createrancher:block/auger/top",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

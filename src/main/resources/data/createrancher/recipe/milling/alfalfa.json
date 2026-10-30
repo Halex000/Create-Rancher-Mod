@@ -1,0 +1,18 @@
+{
+  "type": "create:milling",
+  "processing_time": 100,
+  "ingredients": [
+    {
+      "item": "createrancher:alfalfa"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:alfalfa_powder"
+    },
+    {
+      "id": "createrancher:alfalfa_powder",
+      "chance": 0.25
+    }
+  ]
+}

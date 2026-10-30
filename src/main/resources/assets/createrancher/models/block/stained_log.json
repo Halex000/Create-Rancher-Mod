@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "createrancher:block/stained_log_top",
+    "side": "createrancher:block/stained_log"
+  }
+}

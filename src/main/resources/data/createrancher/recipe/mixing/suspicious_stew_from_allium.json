@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:allium"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:suspicious_stew",
+      "amount": 250,
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:fire_resistance",
+            "duration": 80
+          }
+        ]
+      }
+    }
+  ]
+}

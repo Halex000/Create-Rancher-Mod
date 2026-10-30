@@ -1,0 +1,158 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "walls": "createrancher:block/auger/walls",
+    "walls_inside": "createrancher:block/auger/walls_inside",
+    "particle": "createrancher:block/auger/ends"
+  },
+  "elements": [
+    {
+      "name": "Body",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            4.0,
+            7.75,
+            8.0
+          ],
+          "texture": "#walls"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            4.0,
+            7.75,
+            8.0
+          ],
+          "texture": "#walls"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            4.0,
+            7.75,
+            8.0
+          ],
+          "texture": "#walls"
+        },
+        "east": {
+          "uv": [
+            4.25,
+            4.0,
+            7.75,
+            8.0
+          ],
+          "texture": "#walls"
+        }
+      }
+    },
+    {
+      "name": "Inside",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        16,
+        1.02
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4.25,
+            4.0,
+            7.75,
+            8.0
+          ],
+          "texture": "#walls_inside"
+        }
+      }
+    },
+    {
+      "name": "Inside",
+      "from": [
+        1,
+        0,
+        14.98
+      ],
+      "to": [
+        15,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            4.0,
+            7.75,
+            8.0
+          ],
+          "texture": "#walls_inside"
+        }
+      }
+    },
+    {
+      "name": "Inside",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        1.02,
+        16,
+        15
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            4.25,
+            4.0,
+            7.75,
+            8.0
+          ],
+          "texture": "#walls_inside"
+        }
+      }
+    },
+    {
+      "name": "Inside",
+      "from": [
+        14.98,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        16,
+        15
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            4.25,
+            4.0,
+            7.75,
+            8.0
+          ],
+          "texture": "#walls_inside"
+        }
+      }
+    }
+  ]
+}

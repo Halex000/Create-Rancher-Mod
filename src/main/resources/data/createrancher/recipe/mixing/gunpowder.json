@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createrancher:manure"
+    },
+    {
+      "item": "createrancher:manure"
+    },
+    {
+      "item": "createrancher:manure"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gunpowder"
+    }
+  ]
+}

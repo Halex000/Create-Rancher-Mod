@@ -1,0 +1,92 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "shears": "createrancher:block/mechanical_shearer/shears",
+    "arm": "createrancher:block/mechanical_feeder/arm",
+    "particle": "createrancher:block/mechanical_feeder/arm"
+  },
+  "elements": [
+    {
+      "name": "Joint 4",
+      "from": [
+        -2.5,
+        -3,
+        -3
+      ],
+      "to": [
+        2.5,
+        3,
+        3
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "x",
+        "origin": [
+          8,
+          9,
+          4
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            3,
+            7,
+            5.5
+          ],
+          "rotation": 90,
+          "texture": "#arm"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            7,
+            3
+          ],
+          "texture": "#arm"
+        },
+        "south": {
+          "uv": [
+            7,
+            3,
+            4,
+            5.5
+          ],
+          "rotation": 90,
+          "texture": "#arm"
+        },
+        "west": {
+          "uv": [
+            4,
+            0,
+            7,
+            3
+          ],
+          "texture": "#arm"
+        },
+        "up": {
+          "uv": [
+            7,
+            3,
+            4,
+            5.5
+          ],
+          "rotation": 90,
+          "texture": "#arm"
+        },
+        "down": {
+          "uv": [
+            4,
+            3,
+            7,
+            5.5
+          ],
+          "rotation": 90,
+          "texture": "#arm"
+        }
+      }
+    }
+  ]
+}

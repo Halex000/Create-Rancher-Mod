@@ -1,0 +1,11 @@
+{
+  "parent": "block/block",
+  "loader": "neoforge:obj",
+  "flip_v": true,
+  "model": "createrancher:models/block/auger/helix_top.obj",
+  "render_type": "minecraft:solid",
+  "textures": {
+    "blade": "createrancher:block/auger/blade",
+    "particle": "createrancher:block/auger/ends"
+  }
+}

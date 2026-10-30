@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "createrancher:can_of_pork_stew"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:empty_can"
+    },
+    {
+      "amount": 250,
+      "id": "createrancher:pork_stew"
+    }
+  ]
+}

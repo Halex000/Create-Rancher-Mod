@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "createrancher:can_of_rabbit_stew"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:empty_can"
+    },
+    {
+      "amount": 250,
+      "id": "createrancher:rabbit_stew"
+    }
+  ]
+}

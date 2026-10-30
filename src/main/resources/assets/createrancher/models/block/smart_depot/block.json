@@ -1,0 +1,555 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "side": "createrancher:block/smart_depot/side_extract",
+    "bottom": "createrancher:block/smart_depot/bottom",
+    "square": "create:block/funnel/brass_funnel_push",
+    "redstone": "createrancher:block/smart_depot/redstone_unpowered",
+    "frame": "create:block/funnel/brass_funnel_frame",
+    "top": "createrancher:block/smart_depot/top",
+    "particle": "create:block/brass_block"
+  },
+  "elements": [
+    {
+      "name": "Rail",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "uv": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "texture": "#frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bottom"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        2,
+        0
+      ],
+      "to": [
+        2,
+        5,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "east": {
+          "uv": [
+            15,
+            11,
+            16,
+            14
+          ],
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            0,
+            11,
+            1,
+            14
+          ],
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        2,
+        0
+      ],
+      "to": [
+        16,
+        5,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            15,
+            11,
+            16,
+            14
+          ],
+          "texture": "#side"
+        },
+        "west": {
+          "uv": [
+            0,
+            11,
+            1,
+            14
+          ],
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        2,
+        14
+      ],
+      "to": [
+        2,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            11,
+            16,
+            14
+          ],
+          "texture": "#side"
+        },
+        "east": {
+          "uv": [
+            0,
+            11,
+            1,
+            14
+          ],
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        2,
+        14
+      ],
+      "to": [
+        16,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            11,
+            1,
+            14
+          ],
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "uv": [
+            15,
+            11,
+            16,
+            14
+          ],
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "name": "RedstoneNorthSouth",
+      "from": [
+        2,
+        2,
+        1
+      ],
+      "to": [
+        14,
+        5,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            2,
+            4,
+            14
+          ],
+          "rotation": 270,
+          "texture": "#redstone"
+        },
+        "south": {
+          "uv": [
+            1,
+            2,
+            4,
+            14
+          ],
+          "rotation": 270,
+          "texture": "#redstone"
+        }
+      }
+    },
+    {
+      "name": "RedstoneEastWest",
+      "from": [
+        1,
+        2,
+        2
+      ],
+      "to": [
+        15,
+        5,
+        14
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1,
+            2,
+            4,
+            14
+          ],
+          "rotation": 270,
+          "texture": "#redstone"
+        },
+        "west": {
+          "uv": [
+            1,
+            2,
+            4,
+            14
+          ],
+          "rotation": 270,
+          "texture": "#redstone"
+        }
+      }
+    },
+    {
+      "name": "Band",
+      "from": [
+        0,
+        5,
+        0
+      ],
+      "to": [
+        16,
+        11,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "down": {
+          "uv": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "texture": "#frame"
+        }
+      }
+    },
+    {
+      "name": "SquareSouth",
+      "from": [
+        5,
+        2,
+        15
+      ],
+      "to": [
+        11,
+        5,
+        16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            2.5,
+            0.5,
+            5.5,
+            2
+          ],
+          "texture": "#square"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            0.5,
+            3,
+            2
+          ],
+          "texture": "#square"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            0.5,
+            3,
+            2
+          ],
+          "texture": "#square"
+        }
+      }
+    },
+    {
+      "name": "SquareNorth",
+      "from": [
+        5,
+        2,
+        0
+      ],
+      "to": [
+        11,
+        5,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            0.5,
+            5.5,
+            2
+          ],
+          "texture": "#square"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            0.5,
+            3,
+            2
+          ],
+          "texture": "#square"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            0.5,
+            3,
+            2
+          ],
+          "texture": "#square"
+        }
+      }
+    },
+    {
+      "name": "SquareEast",
+      "from": [
+        15,
+        2,
+        5
+      ],
+      "to": [
+        16,
+        5,
+        11
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.5,
+            0.5,
+            5.5,
+            2
+          ],
+          "texture": "#square"
+        },
+        "north": {
+          "uv": [
+            2.5,
+            0.5,
+            3,
+            2
+          ],
+          "texture": "#square"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            0.5,
+            3,
+            2
+          ],
+          "texture": "#square"
+        }
+      }
+    },
+    {
+      "name": "SquareWest",
+      "from": [
+        0,
+        2,
+        5
+      ],
+      "to": [
+        1,
+        5,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.5,
+            0.5,
+            5.5,
+            2
+          ],
+          "texture": "#square"
+        },
+        "north": {
+          "uv": [
+            2.5,
+            0.5,
+            3,
+            2
+          ],
+          "texture": "#square"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            0.5,
+            3,
+            2
+          ],
+          "texture": "#square"
+        }
+      }
+    },
+    {
+      "name": "DepotTop",
+      "from": [
+        0.95,
+        11,
+        0.95
+      ],
+      "to": [
+        15.05,
+        13,
+        15.05
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#top"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#top"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#top"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#top"
+        },
+        "up": {
+          "uv": [
+            1,
+            0,
+            15,
+            14
+          ],
+          "texture": "#top"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createrancher:empty_can"
+    },
+    {
+      "type": "fluid_tag",
+      "amount": 1000,
+      "fluid_tag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:can_of_milk"
+    }
+  ]
+}

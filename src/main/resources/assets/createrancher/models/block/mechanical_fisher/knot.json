@@ -1,0 +1,81 @@
+{
+  "credit": "Made with a script, after Create's mechanical crafter and weighted ejector",
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "side": "createrancher:block/mechanical_fisher/side",
+    "casing": "createrancher:block/mechanical_fisher/casing",
+    "underside": "createrancher:block/mechanical_fisher/plate",
+    "log": "createrancher:block/mechanical_fisher/log",
+    "plate": "createrancher:block/mechanical_fisher/ejector_plate",
+    "under": "createrancher:block/mechanical_fisher/ejector_underside",
+    "cog": "create:block/cogwheel",
+    "knot": "createrancher:block/mechanical_fisher/rope_knot",
+    "particle": "createrancher:block/mechanical_fisher/casing"
+  },
+  "elements": [
+    {
+      "name": "Rope knot",
+      "from": [
+        7,
+        11,
+        -3
+      ],
+      "to": [
+        9,
+        14,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#knot",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ],
+          "rotation": 90
+        },
+        "up": {
+          "texture": "#knot",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ],
+          "rotation": 90
+        },
+        "down": {
+          "texture": "#knot",
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ],
+          "rotation": 90
+        },
+        "east": {
+          "texture": "#knot",
+          "uv": [
+            0,
+            2,
+            3,
+            5
+          ]
+        },
+        "west": {
+          "texture": "#knot",
+          "uv": [
+            0,
+            2,
+            3,
+            5
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createrancher:alfalfa_powder"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:alfalfa_pellets"
+    }
+  ]
+}

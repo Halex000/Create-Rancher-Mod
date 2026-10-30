@@ -1,0 +1,31 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "side": "createrancher:block/livestock_drain/side",
+    "top": "createrancher:block/livestock_drain/top",
+    "inside": "createrancher:block/livestock_drain/inside",
+    "bottom": "createrancher:block/livestock_drain/bottom",
+    "floor": "createrancher:block/livestock_drain/floor",
+    "particle": "createrancher:block/livestock_drain/side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        5,
+        0
+      ],
+      "to": [
+        2,
+        5,
+        2
+      ],
+      "faces": {
+        "up": {
+          "texture": "#floor"
+        }
+      }
+    }
+  ]
+}

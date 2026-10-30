@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "processing_time": 50,
+  "ingredients": [
+    {
+      "item": "createrancher:stained_log"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:stripped_stained_log"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/base"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/wall_north"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/open_north"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/post_north_west"
+      },
+      "when": {
+        "OR": [
+          {
+            "north": "true",
+            "west": "false"
+          },
+          {
+            "north": "true",
+            "north_west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/post_north_east"
+      },
+      "when": {
+        "OR": [
+          {
+            "north": "true",
+            "east": "false"
+          },
+          {
+            "north": "true",
+            "north_east": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/wall_south"
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/open_south"
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/post_south_west"
+      },
+      "when": {
+        "OR": [
+          {
+            "south": "true",
+            "west": "false"
+          },
+          {
+            "south": "true",
+            "south_west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/post_south_east"
+      },
+      "when": {
+        "OR": [
+          {
+            "south": "true",
+            "east": "false"
+          },
+          {
+            "south": "true",
+            "south_east": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/wall_west"
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/open_west"
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/post_west_north"
+      },
+      "when": {
+        "OR": [
+          {
+            "west": "true",
+            "north": "false"
+          },
+          {
+            "west": "true",
+            "north_west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/post_west_south"
+      },
+      "when": {
+        "OR": [
+          {
+            "west": "true",
+            "south": "false"
+          },
+          {
+            "west": "true",
+            "south_west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/wall_east"
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/open_east"
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/post_east_north"
+      },
+      "when": {
+        "OR": [
+          {
+            "east": "true",
+            "north": "false"
+          },
+          {
+            "east": "true",
+            "north_east": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/post_east_south"
+      },
+      "when": {
+        "OR": [
+          {
+            "east": "true",
+            "south": "false"
+          },
+          {
+            "east": "true",
+            "south_east": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/open_north_west"
+      },
+      "when": {
+        "north": "true",
+        "west": "true",
+        "north_west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/open_north_east"
+      },
+      "when": {
+        "north": "true",
+        "east": "true",
+        "north_east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/open_south_west"
+      },
+      "when": {
+        "south": "true",
+        "west": "true",
+        "south_west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/livestock_drain/open_south_east"
+      },
+      "when": {
+        "south": "true",
+        "east": "true",
+        "south_east": "true"
+      }
+    }
+  ]
+}

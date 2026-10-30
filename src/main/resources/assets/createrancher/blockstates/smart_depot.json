@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "extracting=false,powered=false,waterlogged=false": {
+      "model": "createrancher:block/smart_depot/block_insert"
+    },
+    "extracting=false,powered=false,waterlogged=true": {
+      "model": "createrancher:block/smart_depot/block_insert"
+    },
+    "extracting=false,powered=true,waterlogged=false": {
+      "model": "createrancher:block/smart_depot/block_insert_powered"
+    },
+    "extracting=false,powered=true,waterlogged=true": {
+      "model": "createrancher:block/smart_depot/block_insert_powered"
+    },
+    "extracting=true,powered=false,waterlogged=false": {
+      "model": "createrancher:block/smart_depot/block"
+    },
+    "extracting=true,powered=false,waterlogged=true": {
+      "model": "createrancher:block/smart_depot/block"
+    },
+    "extracting=true,powered=true,waterlogged=false": {
+      "model": "createrancher:block/smart_depot/block_powered"
+    },
+    "extracting=true,powered=true,waterlogged=true": {
+      "model": "createrancher:block/smart_depot/block_powered"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/block",
+  "loader": "neoforge:obj",
+  "flip_v": true,
+  "model": "createrancher:models/block/liquid_blaze_burner/cage.obj",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "createrancher:block/liquid_blaze_burner/cage",
+    "particle": "createrancher:block/liquid_blaze_burner/side"
+  }
+}

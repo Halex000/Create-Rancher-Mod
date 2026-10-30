@@ -1,0 +1,189 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "0": "create:block/belt",
+    "particle": "create:block/belt"
+  },
+  "elements": [
+    {
+      "name": "Lowered",
+      "from": [
+        1,
+        7,
+        2.5
+      ],
+      "to": [
+        15,
+        9,
+        13.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1,
+            2.5,
+            15,
+            13.5
+          ],
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1,
+            2.5,
+            15,
+            13.5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.5,
+            2,
+            13.5
+          ],
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            14,
+            2.5,
+            16,
+            13.5
+          ],
+          "rotation": 90,
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "Slope",
+      "from": [
+        1.1,
+        11,
+        0
+      ],
+      "to": [
+        14.9,
+        13,
+        5.6569
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          13,
+          0
+        ],
+        "axis": "x",
+        "angle": 45
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            1,
+            0,
+            15,
+            5.6569
+          ],
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1,
+            0,
+            15,
+            5.6569
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            5.6569
+          ],
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            16,
+            5.6569
+          ],
+          "rotation": 90,
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "Slope",
+      "from": [
+        1.1,
+        11,
+        10.3431
+      ],
+      "to": [
+        14.9,
+        13,
+        16
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          13,
+          16
+        ],
+        "axis": "x",
+        "angle": -45
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            1,
+            10.3431,
+            15,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1,
+            10.3431,
+            15,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            10.3431,
+            2,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            14,
+            10.3431,
+            16,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "processing_time": 50,
+  "ingredients": [
+    {
+      "item": "createrancher:stripped_stained_wood"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:stained_planks",
+      "count": 6
+    }
+  ]
+}

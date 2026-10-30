@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S",
+    "C",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "createrancher:stained_slab"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "id": "createrancher:crate",
+    "count": 1
+  }
+}

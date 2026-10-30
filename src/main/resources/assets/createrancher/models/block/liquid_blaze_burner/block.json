@@ -1,0 +1,42 @@
+{
+  "parent": "block/block",
+  "loader": "neoforge:composite",
+  "render_type": "minecraft:cutout",
+  "children": {
+    "base": {
+      "parent": "createrancher:block/liquid_blaze_burner/base"
+    },
+    "cage": {
+      "parent": "createrancher:block/liquid_blaze_burner/cage"
+    }
+  },
+  "textures": {
+    "particle": "createrancher:block/liquid_blaze_burner/side"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

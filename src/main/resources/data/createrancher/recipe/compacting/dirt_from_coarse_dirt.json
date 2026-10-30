@@ -1,0 +1,13 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:coarse_dirt"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:dirt"
+    }
+  ]
+}

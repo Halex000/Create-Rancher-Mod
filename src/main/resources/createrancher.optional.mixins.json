@@ -1,0 +1,21 @@
+{
+  "required": false,
+  "package": "com.halex.createrancher.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BasinOperatingBlockEntityMixin"
+  ],
+  "client": [
+    "client.ArmRendererMixin",
+    "client.ArmVisualMixin",
+    "client.BufferSourceMixin",
+    "client.OutlineBufferSourceMixin",
+    "client.PonderSceneMixin",
+    "client.ShadeSeparatingSuperByteBufferAccessor",
+    "client.SpoutScenesMixin",
+    "client.WorldSectionElementImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

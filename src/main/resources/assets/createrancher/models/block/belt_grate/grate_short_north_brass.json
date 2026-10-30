@@ -1,0 +1,7 @@
+{
+  "parent": "createrancher:block/belt_grate/grate_short_north",
+  "textures": {
+    "grate": "createrancher:block/item_grate_connected_brass",
+    "particle": "createrancher:block/item_grate_brass"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "textures": {
+    "0": "createrancher:block/mechanical_herder/segment_wide",
+    "particle": "createrancher:block/mechanical_herder/segment_wide"
+  },
+  "elements": [
+    {
+      "name": "Wide arm piece 6",
+      "from": [
+        -3.5,
+        -2.5,
+        -8
+      ],
+      "to": [
+        3.5,
+        2.5,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12.3429,
+            0,
+            14.4,
+            1.25
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            14.4,
+            4,
+            12.3429,
+            5.25
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            12.3429,
+            8,
+            14.4,
+            9.75
+          ],
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            12.3429,
+            12,
+            14.4,
+            13.75
+          ],
+          "rotation": 90,
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

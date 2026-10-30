@@ -1,0 +1,234 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "casing": "create:block/belt/brass_belt_casing",
+    "particle": "create:block/brass_casing"
+  },
+  "elements": [
+    {
+      "name": "Casing",
+      "from": [
+        0,
+        5,
+        0
+      ],
+      "to": [
+        16,
+        7,
+        16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4,
+            0,
+            8,
+            0.5
+          ],
+          "texture": "#casing"
+        },
+        "north": {
+          "uv": [
+            4,
+            0,
+            8,
+            0.5
+          ],
+          "texture": "#casing"
+        },
+        "east": {
+          "uv": [
+            4,
+            6.25,
+            8,
+            6.75
+          ],
+          "texture": "#casing"
+        },
+        "west": {
+          "uv": [
+            4,
+            6.25,
+            8,
+            6.75
+          ],
+          "texture": "#casing"
+        },
+        "up": {
+          "uv": [
+            0,
+            2.75,
+            4,
+            4.75
+          ],
+          "texture": "#casing",
+          "rotation": 90
+        }
+      }
+    },
+    {
+      "name": "Casing",
+      "from": [
+        0,
+        2,
+        0
+      ],
+      "to": [
+        16,
+        5,
+        16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4,
+            0.5,
+            8,
+            1.25
+          ],
+          "texture": "#casing"
+        },
+        "north": {
+          "uv": [
+            4,
+            0.5,
+            8,
+            1.25
+          ],
+          "texture": "#casing"
+        },
+        "east": {
+          "uv": [
+            4,
+            6.75,
+            8,
+            7.5
+          ],
+          "texture": "#casing"
+        },
+        "west": {
+          "uv": [
+            4,
+            6.75,
+            8,
+            7.5
+          ],
+          "texture": "#casing"
+        }
+      }
+    },
+    {
+      "name": "Casing",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4,
+            2.25,
+            8,
+            2.75
+          ],
+          "texture": "#casing"
+        },
+        "north": {
+          "uv": [
+            4,
+            2.25,
+            8,
+            2.75
+          ],
+          "texture": "#casing"
+        },
+        "east": {
+          "uv": [
+            4,
+            7.5,
+            8,
+            8
+          ],
+          "texture": "#casing"
+        },
+        "west": {
+          "uv": [
+            4,
+            7.5,
+            8,
+            8
+          ],
+          "texture": "#casing"
+        },
+        "down": {
+          "uv": [
+            8,
+            12,
+            12,
+            16
+          ],
+          "texture": "#casing",
+          "rotation": 270
+        }
+      }
+    },
+    {
+      "name": "Casing Slope",
+      "from": [
+        9.5147,
+        7,
+        0.1
+      ],
+      "to": [
+        14,
+        11,
+        15.9
+      ],
+      "rotation": {
+        "origin": [
+          16,
+          13,
+          8
+        ],
+        "axis": "z",
+        "angle": 45
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            2.75,
+            4,
+            3.3107
+          ],
+          "texture": "#casing",
+          "rotation": 90
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            5.1213,
+            1
+          ],
+          "texture": "#casing"
+        },
+        "north": {
+          "uv": [
+            4,
+            0,
+            5.1213,
+            1
+          ],
+          "texture": "#casing"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "block/block",
+  "loader": "neoforge:composite",
+  "children": {
+    "body": {
+      "parent": "createrancher:block/auger/single"
+    },
+    "helix": {
+      "parent": "createrancher:block/auger/helix_single"
+    },
+    "axle": {
+      "parent": "create:block/shaft"
+    }
+  },
+  "textures": {
+    "particle": "createrancher:block/auger/ends"
+  }
+}

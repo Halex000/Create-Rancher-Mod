@@ -1,0 +1,458 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "grate": "createrancher:block/item_grate",
+    "particle": "createrancher:block/item_grate",
+    "leg": "createrancher:block/grill_leg"
+  },
+  "elements": [
+    {
+      "name": "Leg",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        2,
+        12,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            0,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            0,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#leg",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Leg Top",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        2,
+        13,
+        2
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            3,
+            2,
+            4
+          ],
+          "texture": "#leg"
+        },
+        "south": {
+          "uv": [
+            2,
+            3,
+            0,
+            4
+          ],
+          "texture": "#leg"
+        }
+      }
+    },
+    {
+      "name": "Leg",
+      "from": [
+        0,
+        0,
+        14
+      ],
+      "to": [
+        2,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            0,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            0,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "down": {
+          "uv": [
+            0,
+            14,
+            2,
+            16
+          ],
+          "texture": "#leg",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Leg Top",
+      "from": [
+        0,
+        12,
+        14
+      ],
+      "to": [
+        2,
+        13,
+        16
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2,
+            3,
+            0,
+            4
+          ],
+          "texture": "#leg"
+        },
+        "north": {
+          "uv": [
+            0,
+            3,
+            2,
+            4
+          ],
+          "texture": "#leg"
+        }
+      }
+    },
+    {
+      "name": "Leg",
+      "from": [
+        14,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            0,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            0,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "down": {
+          "uv": [
+            14,
+            0,
+            16,
+            2
+          ],
+          "texture": "#leg",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Leg Top",
+      "from": [
+        14,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        13,
+        2
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2,
+            3,
+            0,
+            4
+          ],
+          "texture": "#leg"
+        },
+        "south": {
+          "uv": [
+            0,
+            3,
+            2,
+            4
+          ],
+          "texture": "#leg"
+        }
+      }
+    },
+    {
+      "name": "Leg",
+      "from": [
+        14,
+        0,
+        14
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            0,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            0,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            2,
+            16
+          ],
+          "texture": "#leg"
+        },
+        "down": {
+          "uv": [
+            14,
+            14,
+            16,
+            16
+          ],
+          "texture": "#leg",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "Leg Top",
+      "from": [
+        14,
+        12,
+        14
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            3,
+            2,
+            4
+          ],
+          "texture": "#leg"
+        },
+        "north": {
+          "uv": [
+            2,
+            3,
+            0,
+            4
+          ],
+          "texture": "#leg"
+        }
+      }
+    },
+    {
+      "name": "Grate",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#grate"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#grate"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#grate"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#grate"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#grate"
+        },
+        "south": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#grate"
+        }
+      }
+    }
+  ]
+}

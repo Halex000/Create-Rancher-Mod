@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "com.halex.createrancher.mixin.jei",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "com.halex.createrancher.mixin.jei.JeiMixinPlugin",
+  "client": [
+    "BasinCategoryHeatMixin",
+    "JeiFluidTooltipMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

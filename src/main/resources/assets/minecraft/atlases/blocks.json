@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/mushroom_stew_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/mushroom_stew_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/rabbit_stew_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/rabbit_stew_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/beetroot_soup_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/beetroot_soup_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/suspicious_stew_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/suspicious_stew_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/beef_stew_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/beef_stew_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/chicken_stew_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/chicken_stew_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/pork_stew_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/pork_stew_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/mutton_stew_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/mutton_stew_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/chocolate_milk_still"
+    },
+    {
+      "type": "single",
+      "resource": "createrancher:fluid/chocolate_milk_flow"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "createrancher:alfalfa"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:string"
+    }
+  ]
+}

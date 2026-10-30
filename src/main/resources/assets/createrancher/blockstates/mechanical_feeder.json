@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "ceiling=false": { "model": "createrancher:block/mechanical_feeder/block" },
+    "ceiling=true": { "model": "createrancher:block/mechanical_feeder/block", "x": 180 }
+  }
+}

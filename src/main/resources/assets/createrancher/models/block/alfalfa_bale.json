@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "createrancher:block/alfalfa_bale_top",
+    "bottom": "createrancher:block/alfalfa_bale_bottom",
+    "side": "createrancher:block/alfalfa_bale_side"
+  }
+}

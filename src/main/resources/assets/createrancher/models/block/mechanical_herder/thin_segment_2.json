@@ -1,0 +1,61 @@
+{
+  "textures": {
+    "0": "createrancher:block/mechanical_herder/segment_thin",
+    "particle": "createrancher:block/mechanical_herder/segment_thin"
+  },
+  "elements": [
+    {
+      "name": "Thin arm piece 2",
+      "from": [
+        -2.5,
+        -2.0,
+        -8
+      ],
+      "to": [
+        2.5,
+        2.0,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            4.1143,
+            0,
+            6.1714,
+            1
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            6.1714,
+            4,
+            4.1143,
+            5
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            4.1143,
+            8,
+            6.1714,
+            9.25
+          ],
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            4.1143,
+            12,
+            6.1714,
+            13.25
+          ],
+          "rotation": 90,
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

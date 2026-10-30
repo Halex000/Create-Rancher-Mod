@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "IPI",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "P": {
+      "item": "create:propeller"
+    }
+  },
+  "result": {
+    "id": "createrancher:auger",
+    "count": 6
+  }
+}

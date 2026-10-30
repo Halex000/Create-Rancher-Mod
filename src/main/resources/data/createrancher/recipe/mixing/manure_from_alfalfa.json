@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createrancher:dung"
+    },
+    {
+      "item": "createrancher:alfalfa"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:water",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:manure",
+      "count": 3
+    }
+  ]
+}

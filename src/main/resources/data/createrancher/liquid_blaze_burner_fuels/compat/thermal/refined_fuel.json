@@ -1,0 +1,5 @@
+{
+  "tag": "thermal:refined_fuel",
+  "burn_time": 24000,
+  "superheated": true
+}

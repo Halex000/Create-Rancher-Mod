@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "createrancher:tannin",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:tannic_powder",
+      "count": 2
+    }
+  ]
+}

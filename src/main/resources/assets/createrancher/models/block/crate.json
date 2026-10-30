@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "createrancher:block/crate_side",
+    "top": "createrancher:block/crate_top",
+    "bottom": "createrancher:block/crate_top"
+  }
+}

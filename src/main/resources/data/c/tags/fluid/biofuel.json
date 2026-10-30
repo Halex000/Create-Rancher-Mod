@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "createrancher:biofuel",
+    "createrancher:flowing_biofuel"
+  ]
+}

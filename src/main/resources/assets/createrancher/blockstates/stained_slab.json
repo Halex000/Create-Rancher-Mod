@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "createrancher:block/stained_slab"
+    },
+    "type=double": {
+      "model": "createrancher:block/stained_planks"
+    },
+    "type=top": {
+      "model": "createrancher:block/stained_slab_top"
+    }
+  }
+}

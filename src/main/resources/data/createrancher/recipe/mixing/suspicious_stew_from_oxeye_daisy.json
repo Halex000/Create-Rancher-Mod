@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:oxeye_daisy"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:suspicious_stew",
+      "amount": 250,
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:regeneration",
+            "duration": 160
+          }
+        ]
+      }
+    }
+  ]
+}

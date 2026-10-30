@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createrancher:empty_can"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "createrancher:chocolate_milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:can_of_chocolate_milk"
+    }
+  ]
+}

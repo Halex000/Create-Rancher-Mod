@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "createrancher:alfalfa"
+    }
+  },
+  "result": {
+    "id": "createrancher:alfalfa_bale",
+    "count": 1
+  }
+}

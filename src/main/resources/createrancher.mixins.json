@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "com.halex.createrancher.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArmBlockEntityAccessor",
+    "BlazeBurnerBlockEntityMixin",
+    "BeltBlockEntityMixin",
+    "BeltBlockMixin",
+    "CampfireBlockMixin",
+    "DepotBehaviourAccessor",
+    "FishingHookAccessor",
+    "LavaFluidMixin",
+    "MushroomCowAccessor"
+  ],
+  "client": [
+    "client.BeltModelMixin",
+    "client.BeltRendererMixin",
+    "client.BeltVisualMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

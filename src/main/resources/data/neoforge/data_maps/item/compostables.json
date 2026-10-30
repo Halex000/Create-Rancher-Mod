@@ -1,0 +1,22 @@
+{
+  "values": {
+    "createrancher:alfalfa_seeds": {
+      "chance": 0.3
+    },
+    "createrancher:wild_alfalfa": {
+      "chance": 0.3
+    },
+    "createrancher:alfalfa": {
+      "chance": 0.65
+    },
+    "createrancher:alfalfa_powder": {
+      "chance": 0.5
+    },
+    "createrancher:alfalfa_pellets": {
+      "chance": 0.65
+    },
+    "createrancher:alfalfa_bale": {
+      "chance": 0.85
+    }
+  }
+}

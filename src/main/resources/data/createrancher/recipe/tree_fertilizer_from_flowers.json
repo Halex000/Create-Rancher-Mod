@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createrancher:manure"
+    },
+    {
+      "item": "createrancher:alfalfa_powder"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    }
+  ],
+  "result": {
+    "id": "create:tree_fertilizer",
+    "count": 2
+  }
+}

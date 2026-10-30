@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "B",
+    "D",
+    "E"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:plates/brass"
+    },
+    "D": {
+      "item": "create:depot"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "id": "createrancher:smart_depot",
+    "count": 1
+  }
+}

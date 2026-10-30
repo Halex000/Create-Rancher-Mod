@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createrancher:empty_can"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "createrancher:pork_stew",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:can_of_pork_stew"
+    }
+  ]
+}

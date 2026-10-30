@@ -1,0 +1,6 @@
+{
+  "parent": "createrancher:block/smart_depot/block_powered",
+  "textures": {
+    "side": "createrancher:block/smart_depot/side_insert"
+  }
+}

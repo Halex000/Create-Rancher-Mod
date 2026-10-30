@@ -1,0 +1,87 @@
+{
+  "credit": "Made with a script, after Create's mechanical crafter and weighted ejector",
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "side": "createrancher:block/mechanical_fisher/side",
+    "casing": "createrancher:block/mechanical_fisher/casing",
+    "underside": "createrancher:block/mechanical_fisher/plate",
+    "log": "createrancher:block/mechanical_fisher/log",
+    "plate": "createrancher:block/mechanical_fisher/ejector_plate",
+    "under": "createrancher:block/mechanical_fisher/ejector_underside",
+    "cog": "create:block/cogwheel",
+    "knot": "createrancher:block/mechanical_fisher/rope_knot",
+    "particle": "createrancher:block/mechanical_fisher/casing"
+  },
+  "elements": [
+    {
+      "name": "Plate",
+      "from": [
+        2,
+        12,
+        2
+      ],
+      "to": [
+        14,
+        14,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#plate",
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "down": {
+          "texture": "#under",
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#plate",
+          "uv": [
+            0,
+            12,
+            12,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#plate",
+          "uv": [
+            0,
+            12,
+            12,
+            14
+          ]
+        },
+        "east": {
+          "texture": "#plate",
+          "uv": [
+            0,
+            12,
+            12,
+            14
+          ]
+        },
+        "west": {
+          "texture": "#plate",
+          "uv": [
+            0,
+            12,
+            12,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

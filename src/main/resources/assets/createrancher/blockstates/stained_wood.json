@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "createrancher:block/stained_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "createrancher:block/stained_wood"
+    },
+    "axis=z": {
+      "model": "createrancher:block/stained_wood",
+      "x": 90
+    }
+  }
+}

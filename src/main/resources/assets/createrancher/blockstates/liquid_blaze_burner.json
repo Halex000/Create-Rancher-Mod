@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createrancher:block/liquid_blaze_burner/block"
+    }
+  }
+}

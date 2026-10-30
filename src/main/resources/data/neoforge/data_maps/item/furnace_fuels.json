@@ -1,0 +1,7 @@
+{
+  "values": {
+    "createrancher:biofuel_bucket": {
+      "burn_time": 24000
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "createrancher:mechanical_feeder",
+    "createrancher:mechanical_herder",
+    "createrancher:mechanical_fisher",
+    "createrancher:cauldron_grill",
+    "createrancher:liquid_blaze_burner",
+    "createrancher:auger",
+    "createrancher:smart_depot",
+    "createrancher:livestock_drain",
+    "createrancher:mechanical_shearer"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "contents": "empty"
+      },
+      "apply": {
+        "model": "createrancher:block/cauldron_grill/cauldron"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava"
+      },
+      "apply": {
+        "model": "createrancher:block/cauldron_grill/lava_cauldron"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "level": "1"
+      },
+      "apply": {
+        "model": "createrancher:block/cauldron_grill/water_cauldron_level1"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "level": "2"
+      },
+      "apply": {
+        "model": "createrancher:block/cauldron_grill/water_cauldron_level2"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "level": "3"
+      },
+      "apply": {
+        "model": "createrancher:block/cauldron_grill/water_cauldron_full"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/cauldron_grill/grate"
+      }
+    }
+  ]
+}

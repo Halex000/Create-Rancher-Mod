@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "createrancher:tannin",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:leather"
+    }
+  ]
+}

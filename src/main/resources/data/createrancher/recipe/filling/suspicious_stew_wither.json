@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "createrancher:suspicious_stew",
+      "amount": 250,
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:wither",
+            "duration": 160
+          }
+        ]
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:suspicious_stew",
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:wither",
+            "duration": 160
+          }
+        ]
+      }
+    }
+  ]
+}

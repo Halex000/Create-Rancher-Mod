@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:suspicious_stew",
+      "amount": 250,
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:poison",
+            "duration": 240
+          }
+        ]
+      }
+    }
+  ]
+}

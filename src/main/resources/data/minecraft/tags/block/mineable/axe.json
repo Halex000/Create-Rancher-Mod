@@ -1,0 +1,26 @@
+{
+  "values": [
+    "createrancher:mechanical_feeder",
+    "createrancher:mechanical_herder",
+    "createrancher:campfire_grill",
+    "createrancher:soul_campfire_grill",
+    "createrancher:stained_button",
+    "createrancher:stained_door",
+    "createrancher:stained_fence",
+    "createrancher:stained_fence_gate",
+    "createrancher:stained_hanging_sign",
+    "createrancher:stained_log",
+    "createrancher:stained_planks",
+    "createrancher:stained_pressure_plate",
+    "createrancher:stained_sign",
+    "createrancher:stained_slab",
+    "createrancher:stained_stairs",
+    "createrancher:stained_trapdoor",
+    "createrancher:stained_wall_hanging_sign",
+    "createrancher:stained_wall_sign",
+    "createrancher:stained_wood",
+    "createrancher:stripped_stained_log",
+    "createrancher:stripped_stained_wood",
+    "createrancher:crate"
+  ]
+}

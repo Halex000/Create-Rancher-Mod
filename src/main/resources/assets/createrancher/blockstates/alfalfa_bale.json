@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "createrancher:block/alfalfa_bale",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "createrancher:block/alfalfa_bale"
+    },
+    "axis=z": {
+      "model": "createrancher:block/alfalfa_bale",
+      "x": 90
+    }
+  }
+}

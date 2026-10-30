@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "createrancher:block/wild_alfalfa_tinted"
+      }
+    },
+    {
+      "apply": {
+        "model": "createrancher:block/wild_alfalfa_flowers"
+      }
+    }
+  ]
+}

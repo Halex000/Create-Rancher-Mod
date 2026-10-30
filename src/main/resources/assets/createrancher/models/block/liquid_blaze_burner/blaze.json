@@ -1,0 +1,10 @@
+{
+  "parent": "block/block",
+  "loader": "neoforge:obj",
+  "flip_v": true,
+  "model": "createrancher:models/block/liquid_blaze_burner/item_blaze.obj",
+  "textures": {
+    "1": "create:block/blaze_idle",
+    "particle": "create:block/blaze_idle"
+  }
+}

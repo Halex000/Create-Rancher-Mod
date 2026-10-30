@@ -1,0 +1,63 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "grate": "createrancher:block/item_grate_connected",
+    "particle": "createrancher:block/item_grate"
+  },
+  "elements": [
+    {
+      "name": "Grate",
+      "from": [
+        0,
+        13,
+        0
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#grate"
+        },
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#grate"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            8.5,
+            8.0
+          ],
+          "rotation": 90,
+          "texture": "#grate"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            8.5,
+            8.0
+          ],
+          "rotation": 90,
+          "texture": "#grate"
+        }
+      }
+    }
+  ]
+}

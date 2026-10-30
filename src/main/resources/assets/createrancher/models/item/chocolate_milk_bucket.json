@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createrancher:item/chocolate_milk_bucket"
+  }
+}

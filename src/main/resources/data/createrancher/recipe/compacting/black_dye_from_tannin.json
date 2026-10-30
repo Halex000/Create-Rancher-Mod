@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "createrancher:tannin",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:black_dye"
+    }
+  ]
+}

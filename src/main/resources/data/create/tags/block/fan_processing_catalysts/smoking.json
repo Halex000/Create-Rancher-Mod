@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "createrancher:campfire_grill",
+    "createrancher:liquid_blaze_burner"
+  ]
+}

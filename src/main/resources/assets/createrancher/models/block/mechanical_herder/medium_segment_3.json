@@ -1,0 +1,61 @@
+{
+  "textures": {
+    "0": "createrancher:block/mechanical_herder/segment_medium",
+    "particle": "createrancher:block/mechanical_herder/segment_medium"
+  },
+  "elements": [
+    {
+      "name": "Medium arm piece 3",
+      "from": [
+        -3.0,
+        -2.0,
+        -8
+      ],
+      "to": [
+        3.0,
+        2.0,
+        0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            6.1714,
+            0,
+            8.2286,
+            1
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            8.2286,
+            4,
+            6.1714,
+            5
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            6.1714,
+            8,
+            8.2286,
+            9.5
+          ],
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            6.1714,
+            12,
+            8.2286,
+            13.5
+          ],
+          "rotation": 90,
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

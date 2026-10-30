@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createrancher:empty_can"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "createrancher:suspicious_stew",
+      "amount": 250,
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 160
+          }
+        ]
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:can_of_suspicious_stew",
+      "components": {
+        "minecraft:suspicious_stew_effects": [
+          {
+            "id": "minecraft:blindness",
+            "duration": 160
+          }
+        ]
+      }
+    }
+  ]
+}

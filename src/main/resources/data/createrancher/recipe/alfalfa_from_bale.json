@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createrancher:alfalfa_bale"
+    }
+  ],
+  "result": {
+    "id": "createrancher:alfalfa",
+    "count": 9
+  }
+}

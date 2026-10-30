@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "L": {
+      "tag": "c:slime_balls"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "tag": "c:plates/brass"
+    }
+  },
+  "pattern": [
+    " SSS ",
+    "SA AS",
+    "S   S",
+    "SP  L",
+    " C   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "createrancher:mechanical_herder"
+  },
+  "show_notification": false
+}

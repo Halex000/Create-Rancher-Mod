@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "createrancher:can_of_chocolate_milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "createrancher:empty_can"
+    },
+    {
+      "amount": 1000,
+      "id": "createrancher:chocolate_milk"
+    }
+  ]
+}

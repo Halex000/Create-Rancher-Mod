@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "createrancher:block/stained_planks",
+    "side": "createrancher:block/stained_planks",
+    "top": "createrancher:block/stained_planks"
+  }
+}
