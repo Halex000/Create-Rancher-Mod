@@ -118,7 +118,9 @@ items along to each other. Sneak + wrench a grill to take the grate off.
 ### Alfalfa
 
 - Wild Alfalfa grows near water in plains and along rivers. Break it for seeds.
-- Novice farmers buy it like wheat.
+- Village farm plots sometimes grow alfalfa.
+- Wandering traders sometimes sell Alfalfa Seeds for an emerald.
+- Novice farmers buy Alfalfa like wheat.
 - Alfalfa Bales work like hay bales, but horses and llamas won't eat them.
 - Animals fed Alfalfa Pellets drop Dung a few minutes later.
 

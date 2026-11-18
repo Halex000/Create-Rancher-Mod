@@ -22,15 +22,19 @@ import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.trading.ItemCost;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.neoforged.neoforge.common.BasicItemListing;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
+import net.neoforged.neoforge.event.village.WandererTradesEvent;
 
-// Adds alfalfa and fishing nets to villager trades
+// Adds alfalfa, alfalfa seeds and fishing nets to villager and wandering trader trades
 public class VillagerTradeChanges {
 
     private static final int ALFALFA_WANTED = 20;
     private static final int ALFALFA_STOCK = 16;
     private static final int ALFALFA_EXPERIENCE = 2;
+
+    private static final int SEEDS_STOCK = 12;
 
     private static final int NET_BASE_EMERALDS = 3;
     private static final int NET_STOCK = 3;
@@ -67,6 +71,7 @@ public class VillagerTradeChanges {
 
     public static void register() {
         NeoForge.EVENT_BUS.addListener(VillagerTradeChanges::onTrades);
+        NeoForge.EVENT_BUS.addListener(VillagerTradeChanges::onWandererTrades);
     }
 
     private static void onTrades(VillagerTradesEvent event) {
@@ -78,6 +83,12 @@ public class VillagerTradeChanges {
         if (event.getType() == VillagerProfession.FISHERMAN)
             rodOrNet(event.getTrades()
                     .get(3));
+    }
+
+    // Adds alfalfa seeds for an emerald to the wandering trader's trades
+    private static void onWandererTrades(WandererTradesEvent event) {
+        event.getGenericTrades()
+                .add(new BasicItemListing(1, ItemRegistry.ALFALFA_SEEDS.asStack(), SEEDS_STOCK, 1, 0.05f));
     }
 
     // Makes the fisherman's enchanted rod sometimes a net

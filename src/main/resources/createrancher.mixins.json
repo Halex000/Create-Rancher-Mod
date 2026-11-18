@@ -11,7 +11,8 @@
     "DepotBehaviourAccessor",
     "FishingHookAccessor",
     "LavaFluidMixin",
-    "MushroomCowAccessor"
+    "MushroomCowAccessor",
+    "StructureProcessorListAccessor"
   ],
   "client": [
     "client.BeltModelMixin",

@@ -9,6 +9,7 @@ import com.halex.createrancher.content.shearer.Shearing;
 import com.halex.createrancher.content.spout.SpoutBuckets;
 import com.halex.createrancher.content.joist.JoistPacks;
 import com.halex.createrancher.content.joist.JoistWoods;
+import com.halex.createrancher.content.villager.VillageFarmAlfalfa;
 import com.halex.createrancher.content.villager.VillagerTradeChanges;
 import com.halex.createrancher.content.fluid.LavaInteractions;
 import com.halex.createrancher.content.manure.ManureItem;
@@ -96,6 +97,7 @@ public class CreateRancher {
         MilkTooltips.register();
         CowCans.register();
         VillagerTradeChanges.register();
+        VillageFarmAlfalfa.register();
         NeoForge.EVENT_BUS.addListener(AddReloadListenerEvent.class, event -> event.addListener(
                 new LiquidBlazeBurnerFuels()));
         NeoForge.EVENT_BUS.addListener(OnDatapackSyncEvent.class, event -> event.getRelevantPlayers()
