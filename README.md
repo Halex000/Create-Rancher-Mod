@@ -12,7 +12,8 @@ Most blocks have a Ponder scene (hold W over them) and all the recipes are in JE
 
 A brass arm with a suction cup that picks up mobs and drops them somewhere else.
 
-1. Sneak + right-click the drop-off block with the herder.
+1. Sneak + right-click the drop-off block with the herder. Left-click it to deselect it. Switching items also clears
+   the selection.
 2. Place the herder within 7 blocks of it. It searches the side facing away from you.
 3. Power it through its cog.
 4. Right-click it with an empty hand to set the mob, the age (babies, adults or both) and the search area (3x3x3,
@@ -25,7 +26,7 @@ It follows mobs that wander off and lifts them 4 blocks to carry them over. Reds
 A wooden arm that feeds animals.
 
 - Right-click a depot, belt, basin or anything else an arm can take from to set its pickup point, then place it
-  within 5 blocks.
+  within 5 blocks. Left-click the point to deselect it. Switching items also clears the selection.
 - It feeds animals in a 7x3x7 area. Breeding food only goes to adults with a partner ready, Alfalfa Pellets go to any
   animal that eats them, and brown mooshrooms get one flower each.
 - Right-click it with an empty hand to take back what it's holding.
@@ -42,7 +43,8 @@ The feeder's arm with shears for a hand.
 
 Fishes on its own with a Fishing Net.
 
-- Sneak + right-click water with it to pick a spot, then place it within 16 blocks.
+- Sneak + right-click water with it to pick a spot, then place it within 16 blocks. Left-click the spot to deselect
+  it. Switching items also clears the selection.
 - Powered by a cogwheel next to it, like the Mechanical Crafter. Uses 256 SU at any speed.
 - Right-click it with a net to load it. It casts, waits for a bite and hauls in 1 to 4 catches.
 - Catches go into its 9 slots. Take them out by hand or with hoppers and funnels. Sneak + right-click to take the net

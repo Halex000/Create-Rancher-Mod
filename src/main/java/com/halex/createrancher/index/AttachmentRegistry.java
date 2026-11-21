@@ -1,6 +1,9 @@
 package com.halex.createrancher.index;
 
+import java.util.Optional;
+
 import com.halex.createrancher.CreateRancher;
+import com.halex.createrancher.content.target.MachineTargets;
 import com.mojang.serialization.Codec;
 
 import net.neoforged.bus.api.IEventBus;
@@ -18,6 +21,11 @@ public class AttachmentRegistry {
     public static final DeferredHolder<AttachmentType<?>, AttachmentType<Integer>> DIGESTION = ATTACHMENTS
             .register("digestion", () -> AttachmentType.builder(() -> 0)
                     .serialize(Codec.INT)
+                    .build());
+
+    public static final DeferredHolder<AttachmentType<?>, AttachmentType<Optional<MachineTargets.Picked>>>
+            PICKED_TARGET = ATTACHMENTS.register("picked_target",
+            () -> AttachmentType.<Optional<MachineTargets.Picked>>builder(Optional::empty)
                     .build());
 
     public static void register(IEventBus modBus) {

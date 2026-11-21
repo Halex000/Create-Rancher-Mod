@@ -159,6 +159,23 @@ public class MechanicalHerderBlockEntity extends KineticBlockEntity {
         shoulderAngle = LerpedFloat.linear();
         bendAngle = LerpedFloat.linear();
         setLazyTickRate(10);
+        snapArm();
+    }
+
+    @Override
+    public void onLoad() {
+        super.onLoad();
+        snapArm();
+    }
+
+    // Puts the arm straight into its pose so it looks right before its first tick
+    private void snapArm() {
+        if (plunger == null)
+            plunger = getRestPoint();
+        currentPose = HerderArmPose.reaching(worldPosition, plunger, facingYaw());
+        yaw.startWithValue(currentPose.yaw);
+        shoulderAngle.startWithValue(currentPose.shoulderAngle);
+        bendAngle.startWithValue(currentPose.bendAngle);
     }
 
     @Override

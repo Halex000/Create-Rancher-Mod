@@ -1,5 +1,6 @@
 package com.halex.createrancher;
 
+import com.halex.createrancher.content.biofuel.BiofuelFluidType;
 import com.halex.createrancher.content.crate.CrateScreen;
 import com.halex.createrancher.content.grill.CauldronGrillBlock;
 import com.halex.createrancher.content.grill.client.GrillLavaParticle;
@@ -67,8 +68,10 @@ public class CreateRancherClientSetup {
     @SubscribeEvent
     public static void registerItemColors(RegisterColorHandlersEvent.Item event) {
         event.register(new DynamicFluidContainerModel.Colors(), FluidRegistry.TANNIN.get()
-                .getBucket(), FluidRegistry.BIOFUEL.get()
                 .getBucket());
+        event.register((stack, tintIndex) -> tintIndex == 1 ? BiofuelFluidType.BUCKET_TINT : -1,
+                FluidRegistry.BIOFUEL.get()
+                        .getBucket());
     }
 
     // Tints water in cauldron grills with the biome's water colour

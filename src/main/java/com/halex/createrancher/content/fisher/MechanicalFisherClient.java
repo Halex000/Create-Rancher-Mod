@@ -2,7 +2,7 @@ package com.halex.createrancher.content.fisher;
 
 import com.halex.createrancher.CreateRancher;
 import com.halex.createrancher.index.BlockRegistry;
-import com.halex.createrancher.index.DataComponentRegistry;
+import com.halex.createrancher.content.target.MachineTargets;
 
 import net.createmod.catnip.outliner.Outliner;
 import net.minecraft.client.Minecraft;
@@ -33,7 +33,7 @@ public class MechanicalFisherClient {
         ItemStack stack = player.getItemInHand(InteractionHand.MAIN_HAND);
         if (!BlockRegistry.MECHANICAL_FISHER.isIn(stack))
             return;
-        BlockPos spot = stack.get(DataComponentRegistry.FISHING_SPOT);
+        BlockPos spot = MachineTargets.get(player, stack);
         if (spot == null)
             return;
         Outliner.getInstance()

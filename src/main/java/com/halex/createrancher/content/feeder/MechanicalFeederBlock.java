@@ -3,7 +3,7 @@ package com.halex.createrancher.content.feeder;
 import javax.annotation.Nullable;
 
 import com.halex.createrancher.index.BlockEntityRegistry;
-import com.halex.createrancher.index.DataComponentRegistry;
+import com.halex.createrancher.content.target.MachineTargets;
 import com.simibubi.create.content.kinetics.mechanicalArm.ArmBlock;
 import com.simibubi.create.content.kinetics.mechanicalArm.ArmBlockEntity;
 
@@ -26,10 +26,9 @@ public class MechanicalFeederBlock extends ArmBlock {
     @Override
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
         super.setPlacedBy(level, pos, state, placer, stack);
-        if (level.isClientSide)
-            return;
-        BlockPos pickup = stack.get(DataComponentRegistry.FEEDER_PICKUP);
-        if (pickup == null || !(level.getBlockEntity(pos) instanceof MechanicalFeederBlockEntity feeder))
+        BlockPos pickup = MachineTargets.take(placer, stack);
+        if (level.isClientSide || pickup == null
+                || !(level.getBlockEntity(pos) instanceof MechanicalFeederBlockEntity feeder))
             return;
         MechanicalFeederBlockEntity.LinkStatus status = feeder.linkPickup(pickup);
         if (placer instanceof Player player)

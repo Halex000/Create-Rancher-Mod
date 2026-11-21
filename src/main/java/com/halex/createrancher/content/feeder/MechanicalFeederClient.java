@@ -2,7 +2,7 @@ package com.halex.createrancher.content.feeder;
 
 import com.halex.createrancher.CreateRancher;
 import com.halex.createrancher.index.BlockRegistry;
-import com.halex.createrancher.index.DataComponentRegistry;
+import com.halex.createrancher.content.target.MachineTargets;
 import com.simibubi.create.content.kinetics.mechanicalArm.ArmInteractionPoint;
 
 import net.createmod.catnip.outliner.Outliner;
@@ -32,7 +32,7 @@ public class MechanicalFeederClient {
         ItemStack stack = player.getItemInHand(InteractionHand.MAIN_HAND);
         if (!BlockRegistry.MECHANICAL_FEEDER.isIn(stack))
             return;
-        BlockPos pickup = stack.get(DataComponentRegistry.FEEDER_PICKUP);
+        BlockPos pickup = MachineTargets.get(player, stack);
         if (pickup != null)
             Outliner.getInstance()
                     .showAABB(PICKUP_SLOT, new AABB(pickup))

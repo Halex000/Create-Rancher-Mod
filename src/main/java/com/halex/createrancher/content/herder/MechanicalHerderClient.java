@@ -6,7 +6,7 @@ import com.halex.createrancher.CreateRancher;
 import com.halex.createrancher.content.fisher.MechanicalFisherClient;
 import com.halex.createrancher.content.herder.MechanicalHerderBlockEntity.DropOffStatus;
 import com.halex.createrancher.index.BlockRegistry;
-import com.halex.createrancher.index.DataComponentRegistry;
+import com.halex.createrancher.content.target.MachineTargets;
 
 import net.createmod.catnip.gui.ScreenOpener;
 import net.createmod.catnip.outliner.Outliner;
@@ -72,7 +72,7 @@ public class MechanicalHerderClient {
             return;
         }
 
-        BlockPos dropOff = stack.get(DataComponentRegistry.DROP_OFF);
+        BlockPos dropOff = MachineTargets.get(player, stack);
         BlockPos placementPos = getPlacementPos(mc);
         Direction facing = player.getDirection();
 

@@ -2,10 +2,12 @@ package com.halex.createrancher.content.feeder;
 
 import java.util.List;
 
+import com.halex.createrancher.content.target.TargetingItem;
 import com.halex.createrancher.index.DataComponentRegistry;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.component.DataComponentType;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
@@ -13,10 +15,20 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.Block;
 
 // The feeder item. Links to its pickup point when placed.
-public class MechanicalFeederItem extends BlockItem {
+public class MechanicalFeederItem extends BlockItem implements TargetingItem {
 
     public MechanicalFeederItem(Block block, Properties properties) {
         super(block, properties);
+    }
+
+    @Override
+    public DataComponentType<BlockPos> savedTarget() {
+        return DataComponentRegistry.FEEDER_PICKUP.get();
+    }
+
+    @Override
+    public Component targetDroppedMessage() {
+        return Component.translatable("createrancher.message.feeder.pickup_cleared");
     }
 
     @Override

@@ -3,7 +3,7 @@ package com.halex.createrancher.content.herder;
 import javax.annotation.Nullable;
 
 import com.halex.createrancher.index.BlockEntityRegistry;
-import com.halex.createrancher.index.DataComponentRegistry;
+import com.halex.createrancher.content.target.MachineTargets;
 import com.halex.createrancher.content.herder.MechanicalHerderBlockEntity.DropOffStatus;
 import com.simibubi.create.content.kinetics.base.HorizontalKineticBlock;
 import com.simibubi.create.content.kinetics.simpleRelays.ICogWheel;
@@ -92,10 +92,8 @@ public class MechanicalHerderBlock extends HorizontalKineticBlock implements IBE
     @Override
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
         super.setPlacedBy(level, pos, state, placer, stack);
-        if (level.isClientSide)
-            return;
-        BlockPos dropOff = stack.get(DataComponentRegistry.DROP_OFF);
-        if (dropOff == null)
+        BlockPos dropOff = MachineTargets.take(placer, stack);
+        if (level.isClientSide || dropOff == null)
             return;
         withBlockEntityDo(level, pos, be -> {
             DropOffStatus status = be.setDropOff(dropOff);

@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 public class BiofuelFluidType extends TintedWaterFluidType {
 
     private static final int TINT = 0xFFB53216;
+    public static final int BUCKET_TINT = 0xFFD22406;
     private static final Vector3f FOG = new Vector3f(.23f, .16f, .09f);
 
     public BiofuelFluidType(Properties properties, ResourceLocation still, ResourceLocation flowing) {

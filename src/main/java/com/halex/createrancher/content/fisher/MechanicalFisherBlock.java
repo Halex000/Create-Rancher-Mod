@@ -4,7 +4,7 @@ import javax.annotation.Nullable;
 
 import com.halex.createrancher.content.net.FishingNetItem;
 import com.halex.createrancher.index.BlockEntityRegistry;
-import com.halex.createrancher.index.DataComponentRegistry;
+import com.halex.createrancher.content.target.MachineTargets;
 import com.simibubi.create.content.kinetics.base.HorizontalKineticBlock;
 import com.simibubi.create.content.kinetics.simpleRelays.ICogWheel;
 import com.simibubi.create.foundation.block.IBE;
@@ -47,8 +47,7 @@ public class MechanicalFisherBlock extends HorizontalKineticBlock implements IBE
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        BlockPos spot = context.getItemInHand()
-                .get(DataComponentRegistry.FISHING_SPOT);
+        BlockPos spot = MachineTargets.get(context.getPlayer(), context.getItemInHand());
         BlockPos pos = context.getClickedPos();
         Direction facing;
         if (spot != null && (spot.getX() != pos.getX() || spot.getZ() != pos.getZ()))
@@ -116,10 +115,8 @@ public class MechanicalFisherBlock extends HorizontalKineticBlock implements IBE
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer,
                             ItemStack stack) {
         super.setPlacedBy(level, pos, state, placer, stack);
-        if (level.isClientSide)
-            return;
-        BlockPos spot = stack.get(DataComponentRegistry.FISHING_SPOT);
-        if (spot == null)
+        BlockPos spot = MachineTargets.take(placer, stack);
+        if (level.isClientSide || spot == null)
             return;
         withBlockEntityDo(level, pos, fisher -> {
             MechanicalFisherBlockEntity.LinkStatus status = fisher.setSpot(spot);

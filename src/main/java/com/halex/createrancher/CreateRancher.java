@@ -9,6 +9,7 @@ import com.halex.createrancher.content.shearer.Shearing;
 import com.halex.createrancher.content.spout.SpoutBuckets;
 import com.halex.createrancher.content.joist.JoistPacks;
 import com.halex.createrancher.content.joist.JoistWoods;
+import com.halex.createrancher.content.target.SelectMachineTargetPacket;
 import com.halex.createrancher.content.villager.VillageFarmAlfalfa;
 import com.halex.createrancher.content.villager.VillagerTradeChanges;
 import com.halex.createrancher.content.fluid.LavaInteractions;
@@ -155,6 +156,8 @@ public class CreateRancher {
         event.registrar("1")
                 .playToServer(ConfigureMechanicalHerderPacket.TYPE, ConfigureMechanicalHerderPacket.STREAM_CODEC,
                         ConfigureMechanicalHerderPacket::handle)
+                .playToServer(SelectMachineTargetPacket.TYPE, SelectMachineTargetPacket.STREAM_CODEC,
+                        SelectMachineTargetPacket::handle)
                 .playToClient(LiquidBlazeBurnerFuelsPacket.TYPE, LiquidBlazeBurnerFuelsPacket.STREAM_CODEC,
                         LiquidBlazeBurnerFuelsPacket::handle);
     }

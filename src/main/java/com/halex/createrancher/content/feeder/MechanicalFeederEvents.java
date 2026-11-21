@@ -2,7 +2,7 @@ package com.halex.createrancher.content.feeder;
 
 import com.halex.createrancher.CreateRancher;
 import com.halex.createrancher.index.BlockRegistry;
-import com.halex.createrancher.index.DataComponentRegistry;
+import com.halex.createrancher.content.target.MachineTargets;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -33,17 +33,9 @@ public class MechanicalFeederEvents {
         event.setCanceled(true);
         event.setCancellationResult(InteractionResult.SUCCESS);
         if (level.isClientSide)
-            return;
-
-        if (pos.equals(stack.get(DataComponentRegistry.FEEDER_PICKUP))) {
-            stack.remove(DataComponentRegistry.FEEDER_PICKUP);
-            player.displayClientMessage(Component.translatable("createrancher.message.feeder.pickup_cleared"), true);
-        } else {
-            stack.set(DataComponentRegistry.FEEDER_PICKUP, pos.immutable());
-            player.displayClientMessage(Component.translatable("createrancher.message.feeder.pickup_selected",
+            MachineTargets.toggle(player, pos, Component.translatable("createrancher.message.feeder.pickup_selected",
                     level.getBlockState(pos)
                             .getBlock()
-                            .getName()), true);
-        }
+                            .getName()));
     }
 }
